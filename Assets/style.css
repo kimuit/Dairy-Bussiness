@@ -104,6 +104,8 @@ margin: 10px 120px 10px 120px;
     font-size: 30px;
     color: orange;
 }
+
 .lastline{
     text-align: center;
+    height: inherit;
 }
