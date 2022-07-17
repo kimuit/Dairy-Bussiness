@@ -4,7 +4,7 @@
  var shadeProductionC;
  var shadeProductionD;
  var totalProduction;
- let brookside = 44;
+//  let brookside = 44;
 
  function readValue(){
     var shadeProductionA =parseInt(document.getElementById("shadeProductionA").value);
