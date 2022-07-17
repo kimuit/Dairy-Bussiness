@@ -3,13 +3,7 @@ By Kimuita Kemoi
 
 Bussiness Dairies
 ## Table of Content
-## Description
-Installation
-2.1. 2.1 Requirements
-2.2. 2.2 Process
-Technology Used
-Licence
-Contact Author
+
 ## 1. Description
 This is a website of a dairy farm, kor~mom Dairies, designed to enable the owner monitor the production and sale of milk in the farm. It aims to enable the owner get automated reports about the production and sale of milk daily from the farm.
 
