@@ -8,10 +8,10 @@ Bussiness Dairies
 This is a website of a dairy farm, kor~mom Dairies, designed to enable the owner monitor the production and sale of milk in the farm. It aims to enable the owner get automated reports about the production and sale of milk daily from the farm.
 
 ## 2. Installation
-2.1. 2.1 Requirements
+2.1 Requirements
 - A computer, smartphone, ipad or tablet.
 - An access to the Internet
-2.2. 2.2 Process
+2.2  Process
 To generate production and asales reports, first open the website and navigate to the reports section. Input the quantity of milk per shade then click Add Production for the site to pick the value. Next, enter the current selling price per litre then select the period in which you need the report i.e weekly. Lastly click Generate REport to get the sales report or click on Annual Breakdown REport to generate the monthly report values.
 
 3. ## Technology Used
