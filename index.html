@@ -39,7 +39,8 @@
             <div class="image_text">
                 <div class="image"><img src="./Assets/images/shed_A.jpeg" alt="Shed A"></div>
                 <div class="text">Shed A</div>
-                <input type="number" name="Milk" id="" placeholder="milk in liters" >
+                <p>The production for shed A is: <span id="shadeA"></span> </p>
+                <input type="number" name="Milk" id="shadeProductionA" placeholder="milk in liters" required>
             </div>
         </div>
 
@@ -47,7 +48,10 @@
             <div class="image_text">
                 <div class="image"><img src="./Assets/images/shed_B.jpeg" alt="Shed B"></div>
                 <div class="text">Shed B</div>
-                <input type="number" name="Milk" id="" placeholder="milk in liters" >
+                <p>The production for shed B is: <span id="shadeB"></span> </p>
+                <input type="number" name="Milk" id="shadeProductionB" placeholder="milk in liters" required>
+              
+
             </div>
         </div>
     </div>
@@ -59,17 +63,30 @@
             <div class="image_text">
                 <div class="image"><img src="./Assets/images/shed_C.jpeg" alt="Shed C"></div>
                 <div class="text">Shed C</div>
-                <input type="number" name="Milk" id="" placeholder="milk in liters" >
+                <p>The production for shed C is: <span id="shadeC"></span> </p>
+                <input type="number" name="Milk" id="shadeProductionC" placeholder="milk in liters" required>
+
             </div>
         </div>
         <div class="subd_container">
             <div class="image_text">
                 <div class="image"><img src="./Assets/images/shed_D.jpeg" alt="Shed D"></div>
                 <div class="text">Shed D</div>
-                <input type="number" name="Milk" id="" placeholder="milk in liters" >
+                <p>The production for shed D is: <span id="shadeD"></span> </p>
+                <input type="number" name="Milk" id="shadeProductionD" placeholder="milk in liters" required>
+               
             </div>
         </div>
     </div>
+    <br> <button type="submit" onclick="readValue()">submit</button>
     </div>
+    <h2 class="lastline">copyright &copy;2022</h2>
+
+    <p>Total daily production is: <span id="totals">ksh </span></p>
+    <p>Total weekly prodction is: <span id="weekTotals"> ksh </span></p>
+    <p>Total yearly production is: <span id="yearlyTotals">ksh </span></p>
+    <p>Total week income is: <span id="weekIncome">ksh </span></p>
+    <p>Total yearly income is: <span id="yearlyIncome">ksh </span></p>
+<script src="./Assets/index.js"></script>
 </body>
 </html>
