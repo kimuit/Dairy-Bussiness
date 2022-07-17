@@ -57,6 +57,7 @@ margin: 10px 120px 10px 120px;
     justify-content: space-between;
     margin-left: 70px;
     margin-right: 70px;
+    /* margin-bottom: 100px; */
     padding: 0px, 50px, 0px,50px;
     /* background-image: url(./images/logs5.png); */
 }
@@ -72,10 +73,12 @@ margin: 10px 120px 10px 120px;
     justify-content: space-between;
     margin-left: 70px;
     margin-right: 70px;
+    margin-bottom: 100px;
     padding: 0px, 50px, 0px,50px;
 }
 .midab_container{
     display: flex;
+    padding-bottom: 100px;
     align-items: center;
     background-image: url(./images/logs4.png);
 }
@@ -87,4 +90,20 @@ margin: 10px 120px 10px 120px;
 .overall_container{
     background: rgb(179, 114, 91);
     align-content: center;
+}
+.submit{
+    background-color: rgb(74, 62, 77);
+    padding: 10px 75px 10px 75px;
+    margin-left: 530px;
+    font-size: larger;
+}
+#white{
+    color: whitesmoke;
+}
+.submit a:hover{
+    font-size: 30px;
+    color: orange;
+}
+.lastline{
+    text-align: center;
 }
